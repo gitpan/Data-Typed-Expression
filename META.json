@@ -27,6 +27,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::Exception" : "0",
             "Test::More" : "0.81_01"
          }
       }
@@ -39,6 +40,6 @@
          "web" : "https://github.com/jest/perl.mod.Data-Typed-Expression"
       }
    },
-   "version" : "0.004"
+   "version" : "0.005"
 }
 

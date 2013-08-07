@@ -3,6 +3,7 @@ abstract: 'Parsing typed expressions'
 author:
   - 'Przemyslaw Wesolek <jest@go.art.pl>'
 build_requires:
+  Test::Exception: 0
   Test::More: 0.81_01
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -18,4 +19,4 @@ requires:
   Parse::RecDescent: 0
 resources:
   repository: git://github.com/jest/perl.mod.Data-Typed-Expression.git
-version: 0.004
+version: 0.005
